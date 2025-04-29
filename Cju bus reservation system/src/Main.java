@@ -16,7 +16,7 @@ class Reserve {
          static Scanner scanner = new Scanner(System.in);
          static Random random = new Random();
 
-
+         Scanner sc = new Scanner(System.in);
 
 
 
