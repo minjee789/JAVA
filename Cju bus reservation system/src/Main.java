@@ -49,7 +49,14 @@ class Reserve {
          static Random random = new Random();
 
          Scanner sc = new Scanner(System.in);
-
+         switch (busRoute) {
+             case 1 :
+                busRoute = 정문 - 생활관;
+                break;
+            case 2 :
+                busRoute = 생활관 - 정문;
+                break;
+        }
 
 
 
