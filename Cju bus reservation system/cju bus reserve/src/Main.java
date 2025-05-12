@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class seatType {
+    System.out.println("방향 선택");
     private char seat;
     private seat[] seats;
 
@@ -17,7 +18,7 @@ public class seatType {
         int seatNum = sc.nextInt();
         String name;
         show();
-        
+        System.out.println("이름 입력");
 
 
         }
