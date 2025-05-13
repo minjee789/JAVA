@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
 public class seatType {
+    route1 = main gate to domitory;
+    route2 = domitory to main gate;
+    System.out.println("route1" + "route2");
     System.out.println("방향 선택");
+    
     private char seat;
     private seat[] seats;
 
@@ -19,6 +23,8 @@ public class seatType {
         String name;
         show();
         System.out.println("이름 입력");
+        
+        
 
 
         }
