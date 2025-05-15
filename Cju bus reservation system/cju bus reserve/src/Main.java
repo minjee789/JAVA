@@ -4,7 +4,11 @@ public class seatType {
     route1 = main gate to domitory;
     route2 = domitory to main gate;
     System.out.println("route1" + "route2");
+    
     System.out.println("방향 선택");
+
+    System.out.println("시간 선택")
+    System.out.println("time") 
     
     private char seat;
     private seat[] seats;
@@ -17,6 +21,7 @@ public class seatType {
             aseat[i] = new seat();
         }
     }
+    
     public boolean seatReserve() {
         Scanner sc = new Scanner(System.in);
         int seatNum = sc.nextInt();
