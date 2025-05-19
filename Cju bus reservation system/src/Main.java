@@ -50,11 +50,11 @@ public class BUS ReservationSystem {
         seat.run();
     }
 }
-class Reserve {
-    public void run() {
-         static int Total_seat = 20;
-         static Scanner scanner = new Scanner(System.in);
-         static Random random = new Random();
+  class Reserve {
+        public void run() {
+          static int Total_seat = 20;
+          static Scanner scanner = new Scanner(System.in);
+          static Random random = new Random();
 
          Scanner sc = new Scanner(System.in);
          switch (busRoute) {
@@ -65,13 +65,13 @@ class Reserve {
                 busRoute = 생활관 - 정문;
                 break;
         }
-     public class  Reserve extends SeatType;
+    public class  Reserve extends SeatType;
 
          int run(){
          int num;
      while(true){
          Scanner input = new Scanner(System.in);
-         System.out.print("버스 예약(1), 조화(+2), 취소(3)");
+         System.out.print("버스 예약(1), 조회(+2), 취소(3)");
          num = input.nextInt();
          switch(num){
              case 1:
