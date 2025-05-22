@@ -1,8 +1,15 @@
 import java.util.Scanner;
 
-//TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
-// 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class seatType {
+    route1 = main gate to domitory;
+    route2 = domitory to main gate;
+    System.out.println("route1" + "route2");
+    
+    System.out.println("방향 선택");
+
+    System.out.println("시간 선택")
+    System.out.println("time") 
+    
     private char seat;
     private seat[] seats;
 
@@ -14,11 +21,14 @@ public class seatType {
             aseat[i] = new seat();
         }
     }
+    
     public boolean seatReserve() {
         Scanner sc = new Scanner(System.in);
         int seatNum = sc.nextInt();
         String name;
         show();
+        System.out.println("이름 입력");
+        
         
 
 
