@@ -62,7 +62,6 @@ public class BUS ReservationSystem {
                 busRoute = 생활관 - 정문;
                 break;
         }
-    import java.util.*;
 
 public class BusDirectionChecker {
     public static void main(String[] 
