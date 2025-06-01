@@ -1,5 +1,3 @@
-package  reservation;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -12,7 +10,6 @@ public class Main {
 class Reserve {}
 
 public class BUS ReservationSystem {
-    static int Total Seat = 20;
     static Scanner sc = new Scanner(System.in);
     static Random rand = new Random();
 
@@ -65,6 +62,39 @@ public class BUS ReservationSystem {
                 busRoute = 생활관 - 정문;
                 break;
         }
+    import java.util.*;
+
+public class BusDirectionChecker {
+    public static void main(String[] 
+        List<String> busRoute = Arrays.asList(
+            "정문", "중앙도서관", "학생회관", "본관", "기숙사"
+        );
+
+
+        String currentStop = "학생회관";
+        String nextStop = "기숙사";
+
+        String direction = getBusDirection(busRoute, currentStop, nextStop);
+        System.out.println("버스는 현재 " + direction + " 중입니다.");
+    }
+
+    public static String getBusDirection(List<String> route, String current, String next) {
+        int currentIndex = route.indexOf(current);
+        int nextIndex = route.indexOf(next);
+
+        if (currentIndex == -1 || nextIndex == -1) {
+            return "정류장 정보를 찾을 수 없습니다.";
+        }
+
+        if (nextIndex > currentIndex) {
+            return "상행 (기숙사 방향)";
+        } else if (nextIndex < currentIndex) {
+            return "하행 (정문 방향)";
+        } else {
+            return "정차 중";
+        }
+    }
+}
     public class  Reserve extends SeatType;
 
          int run(){
@@ -123,7 +153,7 @@ public class BUS ReservationSystem {
                 System.out.println("예약이 완료되었습니다.");
             }
         }
-        System.out.println("\n--- 현재 좌석 배치도 (0: 비어있음, 1: 예약석)---");
+        System.out.println("\n--- 현재 좌석 배치도 (0: 예약가능, 1: 예약석)---");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print(seats[i][j] + " ");
