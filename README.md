@@ -61,3 +61,15 @@
 #   프로그램 진행 순서(시각 자료)
 <img width="347" alt="image" src="https://github.com/user-attachments/assets/d7e26c86-b4c0-471b-ac81-15b8f0f730fe" />
 
+**시간 선택과 좌석 선택**
+<img width="584" alt="Pasted image 20250613014434" src="https://github.com/user-attachments/assets/195864f3-cb72-4b58-bf6e-6e96c1288f66" />
+
+**학번과 이름 입력**
+<img width="584" alt="Pasted image 20250613014758" src="https://github.com/user-attachments/assets/ce1d0d45-25b3-4fa3-a1c8-da86d28b60e6" />
+<img width="584" alt="Pasted image 20250613014816" src="https://github.com/user-attachments/assets/ec7d63eb-598a-4121-9ba3-61cd48c76e9a" />
+
+**예약 확인**
+<img width="335" alt="Pasted image 20250613015259" src="https://github.com/user-attachments/assets/4dc64332-6410-4887-baa5-18c4840b1692" />
+
+
+
