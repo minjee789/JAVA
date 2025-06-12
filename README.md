@@ -59,4 +59,5 @@
 
 
 #   프로그램 진행 순서(시각 자료)
-Pasted image 20250613052048.png
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/d7e26c86-b4c0-471b-ac81-15b8f0f730fe" />
+
