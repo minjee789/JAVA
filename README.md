@@ -61,6 +61,14 @@
 #   프로그램 진행 순서(시각 자료)
 <img width="347" alt="image" src="https://github.com/user-attachments/assets/d7e26c86-b4c0-471b-ac81-15b8f0f730fe" />
 
+**터미널 실행**
+
+
+<img width="839" alt="2025-06-13 212643" src="https://github.com/user-attachments/assets/d4a70b1e-4e3d-43f7-a99b-1a37cc4c4ac7" />
+<img width="841" alt="2025-06-13 212742" src="https://github.com/user-attachments/assets/02d1bf3e-240f-450e-b667-50d0569b5b28" />
+
+
+
 **시간 선택과 좌석 선택**
 
 
